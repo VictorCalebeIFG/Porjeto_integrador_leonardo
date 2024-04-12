@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="user-creation">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button id="submit">Submit</button>
+    </div>
+
+    <script>
+        document.getElementById('submit').addEventListener('click', () => {
+            const name = document.getElementById('name').value
+            const email = document.getElementById('email').value
+            const password = document.getElementById('password').value
+
+            const url = `https://victorcalebeacd1.pythonanywhere.com/user/${name}/${email}/${password}`
+            const options = {method: 'POST'}
+            
+            fetch(url,options)
+
+            window.location.href = './post-page.html?email=' + email;
+        })
+    </script>
+
+</body>
+</html>

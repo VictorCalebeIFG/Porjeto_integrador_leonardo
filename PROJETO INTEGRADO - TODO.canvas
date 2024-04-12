@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"1d03229eda2a707f","x":-640,"y":-382,"width":250,"height":60,"type":"text","text":"Adicionar Usuário"},
+		{"id":"4fac38e7ffe9c8a8","x":-280,"y":-382,"width":250,"height":60,"type":"text","text":"Entrar na página de usuário"}
+	],
+	"edges":[
+		{"id":"011c1f7dfe6c8291","fromNode":"1d03229eda2a707f","fromSide":"right","toNode":"4fac38e7ffe9c8a8","toSide":"left"}
+	]
+}

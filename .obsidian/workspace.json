@@ -1,0 +1,174 @@
+{
+  "main": {
+    "id": "8fd52c30919ad8f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d28fcab7bed7a36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1085bf835e31057e",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a67b84bea5253778",
+    "type": "split",
+    "children": [
+      {
+        "id": "378b5bbbbb1ca2ae",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fa0f8d85f83359e3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d9361e41b9dc7e93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "94632dfad8eec026",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "077a03ef249e0aaa",
+    "type": "split",
+    "children": [
+      {
+        "id": "cc52337bb7ceb0ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8af49b714bbe0bf2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f6a63131b528896",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7c67617a3939f7f1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9b49441c7fdb7a7e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "1085bf835e31057e",
+  "lastOpenFiles": [
+    "Porjeto_integrador_leonardo",
+    "FRONTEND/post-page.html",
+    "FRONTEND/index.html",
+    "FRONTEND",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/__init__.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/makefile.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__/weakref_finalize.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/botocore/vendored/requests/packages/urllib3/__pycache__/__init__.cpython-312.pyc",
+    "BACKEND/venv/Lib/site-packages/werkzeug/debug/shared/more.png",
+    "BACKEND/venv/Lib/site-packages/werkzeug/debug/shared/less.png",
+    "BACKEND/venv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "BACKEND/venv/Lib/site-packages/werkzeug/debug/shared/console.png",
+    "BACKEND/venv/Lib/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.md",
+    "BACKEND/venv/Lib/site-packages/httpx-0.27.0.dist-info/licenses/LICENSE.md",
+    "BACKEND/venv/Lib/site-packages/flask/sansio/README.md",
+    "BACKEND/venv/Lib/site-packages/idna-3.6.dist-info/LICENSE.md",
+    "BACKEND/venv/Banco_de_dados_PI.png",
+    "PROJETO INTEGRADO - TODO.canvas",
+    "venv/Lib/site-packages/werkzeug/debug/shared/more.png",
+    "venv/Lib/site-packages/werkzeug/debug/shared/less.png",
+    "venv/Lib/site-packages/werkzeug/debug/shared/ICON_LICENSE.md",
+    "venv/Lib/site-packages/werkzeug/debug/shared/console.png",
+    "venv/Lib/site-packages/httpcore-1.0.5.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/httpx-0.27.0.dist-info/licenses/LICENSE.md",
+    "venv/Lib/site-packages/flask/sansio/README.md",
+    "venv/Lib/site-packages/idna-3.6.dist-info/LICENSE.md",
+    "venv/Banco_de_dados_PI.png"
+  ]
+}

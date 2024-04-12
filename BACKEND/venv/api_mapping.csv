@@ -1,0 +1,3 @@
+url_command,Description
+/user,Puxa todos os usuarios
+/user/email@exemplo.com,Puxa apenas o usuario com o email especificado
