@@ -1,11 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <h1>Trabalhos</h1>
+    <div class="post-div">
+        <div class="title-div"><span style="font-size: 40px;">Titulo do Autor</span> <br> <span style="font-size: 15px;color: #5e5a5a;">Autor: Fulano de Tal</span></div>
+        <div class="description-div"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint reiciendis, maxime, optio accusamus ab, ad velit itaque recusandae eveniet est placeat. Sunt esse animi similique! Impedit ipsa placeat modi beatae.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cumque, laudantium inventore aperiam magni explicabo aut quisquam dolore fugiat id odio accusantium similique nesciunt nisi expedita porro itaque sed excepturi.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum temporibus quas aspernatur veniam. Quisquam perferendis fugit quo laborum dolores natus nihil! Ad nesciunt ducimus molestias incidunt aut, atque animi provident?    
+        </p></div>
+        <div class="price-div">Preço:<br>R$: <span style="font-size: 30px;">200</span></div>
+        <div class="deadline-div">Deadline:<br><span style="font-size: 30px;">01/01/2021</span></div>  
+        <button class="accept">Aceitar</button>
+    </div>
 </body>
+
+<style>
+
+    .title-div{grid-area:title-div}
+    .description-div{grid-area:description-div}
+    .price-div{grid-area:price-div}
+    .deadline-div{grid-area:deadline-div}
+    .accept{grid-area:accept}
+
+    .post-div{
+        display: grid;
+        grid-template-areas:
+        'title-div title-div title-div'
+        'description-div description-div description-div'
+        'price-div deadline-div accept';
+    }
+
+    .post-div{
+        background-color: #151419ff;
+        border-radius: 10px;
+        margin: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .title-div{
+        font-weight: bold;
+        background-color: #EA8FB3ff;;
+        color: black;
+        padding: 10px 10px 10px 30px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .description-div{
+        padding: 10px;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        padding-left: 40px;
+    }
+
+    .price-div{
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .deadline-div{
+        padding: 10px;
+        color: white;
+        font-weight: bold;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .accept{
+        padding: 10px;
+        color: #151419ff;
+        font-weight: bold;
+        border-radius: 20px;
+        margin: 10px;
+        background-color: #EA8FB3ff;
+        cursor: pointer;
+        font-size: 200%;
+        border: 0;
+        margin: 10px;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
+
+</style>
+
 </html>

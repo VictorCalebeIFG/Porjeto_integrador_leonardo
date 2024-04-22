@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
     <title>Document</title>
 </head>
 <body>
@@ -29,9 +30,12 @@
             const url = `https://victorcalebeacd1.pythonanywhere.com/user/${name}/${email}/${password}`
             const options = {method: 'POST'}
             
-            fetch(url,options)
+            fetch(url,options).then(res => res.json()).then(data => {   
+                if (data.menssage === 'User created') {
+                    window.location.href = './login.html';
+                }
+            })
 
-            window.location.href = './post-page.html?email=' + email;
         })
     </script>
 

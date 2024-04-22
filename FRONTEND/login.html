@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="user-login">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+
+        <button id="submit">login</button>
+
+    </div>
+
+    <script>
+
+        document.getElementById('submit').addEventListener('click', () => {
+            const email = document.getElementById('email').value
+            const password = document.getElementById('password').value
+
+            const url = `https://victorcalebeacd1.pythonanywhere.com/checkpassword/${email}/${password}`
+            const options = { method: 'GET' }
+
+            fetch(url, options)
+                .then(res => res.json()) // Corrigido: chama .json() diretamente na resposta fetch
+                .then(data => {
+                    console.log(data); // Certifique-se de que 'data' contenha a estrutura JSON esperada
+                    if (data.message === 'Password correct') { // Verifica se a mensagem é 'Password correct'
+                        window.location.href = './post-page.html?email='+email;
+                    } else {
+                        console.log('Senha incorreta');
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro:', error);
+                    console.log('Ocorreu um erro. Tente novamente mais tarde.');
+                });
+
+        })
+
+    </script>
+
+
+</body>
+
+</html>
